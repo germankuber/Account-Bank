@@ -12,15 +12,15 @@ Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered H
 
 # Requerimientos
 
-- [Requerimiento 1](https://github.com/germankuber/Account-Bank/tree/master/01%20-%20Requirement%2001) : Al realizar una transferencia, la cuenta no se puede quedar nunca con menos de $ 200:
-- Para poder realizar una transferencia la cuenta destino debe de estar habilitada.
-- Para validar si una cuenta esta habilitada, se debe consumir el servicio remoto (usar AccountStateService.IsEnableToTranfer)
-- Pedir prestamos
+- [Requerimiento 1](https://github.com/germankuber/Account-Bank/tree/master/01%20-%20Requerimiento%2001) : Al realizar una transferencia, la cuenta no se puede quedar nunca con menos de $ 200:
+- [Requerimiento 2](https://github.com/germankuber/Account-Bank/tree/master/01%20-%20Requerimiento%2002) : Para poder realizar una transferencia la cuenta destino debe de estar habilitada.
+- [Requerimiento 3](https://github.com/germankuber/Account-Bank/tree/master/01%20-%20Requerimiento%2003) : Para validar si una cuenta esta habilitada, se debe consumir el servicio remoto (usar AccountStateService.IsEnableToTranfer)
+- [Requerimiento 4](https://github.com/germankuber/Account-Bank/tree/master/01%20-%20Requerimiento%2004) : Pedir prestamos
     -  No se pueden pedir prestamos mayores al doble del saldo actual de la cuenta.
-- Extraer dinero
+- [Requerimiento 5](https://github.com/germankuber/Account-Bank/tree/master/01%20-%20Requerimiento%2005) : Extraer dinero
     - Debe retornar $0 si no se tienen los fondos suficientes. 
     - Se debe descontar el dinero de la cuenta 
-- Nuevo tipo de cuenta : VIP
+- [Requerimiento 6](https://github.com/germankuber/Account-Bank/tree/master/01%20-%20Requerimiento%2006) : Nuevo tipo de cuenta : VIP
     - Una cuenta Vip debe poder transferir dinero a cualquier cuenta.
 
 

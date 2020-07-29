@@ -20,8 +20,17 @@
 
         private void TransferMoney(Account transferTo, decimal amount)
         {
-            transferTo.AddMoney(amount);
-            Amount -= amount;
+
+            if (Amount - amount > 200
+                &&
+            //TODO: Requerimiento 03 : Para poder realizar una transferencia la cuenta destino debe de estar habilitada.
+                transferTo.Enable
+                &&
+                new AccountStateService().IsEnableToTransfer(transferTo))
+            {
+                transferTo.AddMoney(amount);
+                Amount -= amount;
+            }
         }
         private void AddMoney(decimal amount)
         {
