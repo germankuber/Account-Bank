@@ -12,7 +12,7 @@ Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered H
 
 # Requerimientos
 
-- [Requerimiento 1](https://github.com/germankuber/Account-Bank/tree/master/02%20-%20Requirement%2001) : Al realizar una transferencia, la cuenta no se puede quedar nunca con menos de $ 200:
+- [Requerimiento 1](https://github.com/germankuber/Account-Bank/tree/master/01%20-%20Requirement%2001) : Al realizar una transferencia, la cuenta no se puede quedar nunca con menos de $ 200:
 - Para poder realizar una transferencia la cuenta destino debe de estar habilitada.
 - Para validar si una cuenta esta habilitada, se debe consumir el servicio remoto (usar AccountStateService.IsEnableToTranfer)
 - Pedir prestamos
